@@ -125,7 +125,7 @@ h3{
 }
 #about{
     background-color: rgb(31, 31, 31);
-    height: 100vh;
+    height: 110vh;
 }
 .h11{
     padding-top: 20px;
@@ -133,14 +133,14 @@ h3{
     text-align: center;
 }
 .abt{
-    top: 980px;
+    top: 900px;
     border-radius: 30px;
     background-color: rgb(53, 53, 53);
     position: absolute;
     padding-top: 30px;
     left: 46%;
     width: 52%;
-    height: 70vh;
+    height: 75vh;
     font-size: 15px;
     color: #edf0f1;
     right: 20px;
@@ -189,7 +189,7 @@ img{
     margin-top: 30px;
    margin-left: 150px;
    width: 35%;
-   height: 60%;
+   height: 67%;
    float: left;
    background-color:  #d1d3d4;
    border-radius: 20px;
@@ -217,7 +217,7 @@ img{
     margin-top: 30px;
     margin-left: 200px;
     width: 35%;
-    height: 60%;
+    height: 67%;
     float: left;
     background-color: #d1d3d4;
     border-radius: 20px;
@@ -327,11 +327,11 @@ img{
 
   .container {
     
-    margin-top: -550px;
+    margin-top: -510px;
     margin-right: 20px;
     float: right;
     width: 55%;
-    height: 80vh;
+    height: 87vh;
     border-radius: 5px;
     color: white;
     background-color: #282828;
