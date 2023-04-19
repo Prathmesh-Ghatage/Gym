@@ -360,6 +360,7 @@ img{
         z-index: 1000;
     }
     header{
+        width: 50vh;
         height: 13vh;
         display: flex;
         justify-content: space-between;
@@ -374,14 +375,15 @@ img{
         padding-inline: 25px;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
         color: #edf0f1;
-        text-decoration: underline;
+        display: flex;
+        text-decoration: none;
         
     }
     .logo{
-        width: 25x;
-        height: px;
+        width: 280px;
+        height: 150px;
         cursor: pointer;
         border-radius: 0px;
     }
@@ -397,6 +399,286 @@ img{
         transition: all 0.3s ease 0s;
     
     }
+    #Home{
+        /* display: flex; */
+        /* position: relative; */
+        justify-content: center;
+        height: 90vh;
+        width: 50vh;
+        background-size: cover;
+        background-image: url(gym.jpg);
+        background-attachment: fixed;
+       
+    }
+    h1{
+        color: ghostwhite;
+        font-size: 60px;
+        text-align: center;
+        padding-top: 40px;
+        
+    }
+    h3{
+        padding-inline: 5px;
+       font-size: 40px;
+       color: whitesmoke;
+       padding-top: 190px;
+       /* padding: 190px 150px; */
+       text-align: center;
+       text-shadow: #d46f10;
+    }
+    #join{
+        
+        font-size: 35px;
+        font-weight: 200px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+    #headbtn{
+        width: 150px;
+    }
+    #about{
+        background-color: rgb(31, 31, 31);
+        height: 95vh;
+        width: 50vh;
+    }
+    .h11{
+        padding-top: 20px;
+        font-size: 60px;
+        text-align: center;
+    }
+    .abt{
+        margin-top: 400px;
+        border-radius: 30px;
+        background-color: rgb(53, 53, 53);
+        position: absolute;
+        padding-top: 30px;
+        left: 9%;
+        width: 97%;
+        height: 43vh;
+        font-size: 15px;
+        color: #edf0f1;
+        right: 20px;
+    }
+    .h22{
+        margin-top: -15px;
+        font-size: 13.5px;
+        padding-left: 40px;
+        text-align:justify ;
+        width: 96%;
+        height: 80%;
+        /* text-align: center; */
+        padding-inline: 20px;
+    }
+    .id{
+        width: 175px;
+        height: 30px;
+        font-size: 8px;
+        top:360px;
+        position: absolute;
+        left: 30%;
+    
+    }
+    .eq1{
+        border-radius: 10px;
+        padding-top: 10px;
+       width: 0%;
+       height: 315px;
+    
+    
+    }
+    img{
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    .eq2{
+        margin-top: -265px;
+        width: 90%;
+        height: 270px;
+        padding-left: 38px;
+    }
+    #Plans{
+        background-image: url(gym1.jpg);
+        height: 90vh;
+        width: 50vh;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .p1{
+       font-size: 2px;
+        margin-top: 20px;
+       margin-left: 40px;
+       width: 80%;
+       height: 40%;
+       float: left;
+       background-color:  #d1d3d4;
+       border-radius: 20px;
+       /* vertical-align: middle;
+       display: inline-block; */
+       
+    }
+    .h1{
+      
+        font-size: 30px;
+        color: rgb(20, 20, 20);
+    }
+    
+    .P1{
+        font-family: 'Times New Roman', Times, serif;
+        /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+        padding-top: 30px;
+        font-weight: 25px;
+        font-size: 18px;
+       color: black;
+    }
+    .p2{
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        margin-top: 30px;
+        margin-left: 44px;
+        width: 80%;
+        height: 38%;
+        float: left;
+        background-color: #d1d3d4;
+        border-radius: 20px;
+        /* vertical-align: middle;
+        display: inline-block; */
+        
+        
+     }
+     #contact{
+        height: 120vh;
+        width: 50vh;
+        background-color: rgb(18, 18, 18);
+    }
+    /* .h12{
+    ;
+    } */
+     .left{
+        
+        border-radius: 30px;
+        margin-top: 650px;
+        margin-left: 60px;
+        width: 73%;
+        height: 25%;
+        background-color: #242424;
+        color: #edf0f1;
+        z-index: 9;
+     }
+    .loc{
+        
+        padding-top: 80px;
+        font-size: 14px;
+        padding-left: 60px;
+    }
+    .locimg{
+        cursor: pointer;
+        position: absolute;
+        margin-top:25px ;
+        margin-left: 150px;
+        background-image: url(loc.jpg);
+        height: 35px;
+        width: 35px;
+        background-size: cover;
+    }
+    .emimg{
+        cursor: pointer;
+        position: absolute;
+        margin-top:25px ;
+        margin-left: 150px;
+        background-image: url(email.jpg);
+        height: 35px;
+        width: 35px;
+        background-size: cover;
+    }
+    .phnimg{
+        cursor: pointer;
+        position: absolute;
+        margin-top:25px ;
+        margin-left: 145px;
+        background-image: url(Phone_icon.jpg);
+        height: 35px;
+        width: 35px;
+        background-size: cover;
+    }
+    .em{
+        padding-top: 70px;
+        font-size: 14px;
+        padding-left: 80px;
+    }
+    .phn{
+        padding-top: 68px;
+        font-size: 14px;
+        padding-left: 120px;
+    }
+    /* .right{
+        margin-top: -350px;
+        float: right;
+        width: 65%;
+        height: 70%;
+        background-color: #242424;
+        color: #edf0f1;
+     } */
+     input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        color: #2a2a2a; 
+        border: 1px solid #ccc; 
+        border-radius: 4px;
+        box-sizing: border-box; 
+        margin-top: 6px;
+        margin-bottom: 16px; 
+        resize: vertical 
+      }
+      #subject{
+        height: 10vh;
+      }
+      
+      
+      input[type=submit] {
+        background-color: #ea071e;
+        color: rgb(45, 45, 45);
+        padding: 12px 20px;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      
+      input[type=submit]:hover {
+        background-color: #0b8605;
+      }
+      
+    
+      .container {
+        
+        margin-top: -870px;
+     
+        float: right;
+        width: 85%;
+        height: 63vh;
+        border-radius: 5px;
+        color: white;
+        background-color: #282828;
+        padding: 20px;
+        top:300px;
+      }
+      #h{
+        text-align: center;
+        padding-top: 10px;
+        color: whitesmoke;
+      }
+      #id{
+         margin-left: 50px;
+         margin-top: 10px;
+      }
+      #id:hover{
+        color: #d46f10;
+        transform: scale(1.05);
+      }
     
   }
 
