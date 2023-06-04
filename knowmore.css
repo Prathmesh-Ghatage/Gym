@@ -9,17 +9,20 @@ header{
     height: 10px;
 }
 .back{
-    
+  width: 80px;
+  height: 80px;
+  background-color: rgb(220, 220, 220);
+
 }
 h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 30px;
-    color: rgb(242, 240, 238);
+    color: rgb(30, 30, 30);
     text-align: center;
     font-size: 50px;
 }
 .abt{
-    background-color: rgb(1, 5, 19);
+    background-color: rgb(220, 220, 220);
     height: 90vh;
     
 }
@@ -59,7 +62,7 @@ h1{
 
 }
 #h1{
-    color: black;
+    color: rgb(233, 233, 233);
 }
 .img2{
     width: 500px;
@@ -93,7 +96,7 @@ h1{
     margin-left: 15px;
     font-style: italic;
 }
-#abt{
-    background-color: rgb(220, 220, 220);
+#abt{ 
+    background-color: rgb(1, 5, 19);
     height: 90vh;
 }
